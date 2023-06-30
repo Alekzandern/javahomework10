@@ -5,8 +5,7 @@ public class RadioTest {
     @Test
     public void StationTest() {
 
-        int stationsCount;
-        Radio radio = new Radio(stationsCount = 20);
+        Radio radio = new Radio(20);
 
         radio.setCurrentStation(17);
 

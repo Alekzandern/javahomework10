@@ -52,6 +52,7 @@ public class Radio {
             return;
         }
         if (currentStation > maxStation) {
+            return;
         }
         this.currentStation = currentStation;
     }
