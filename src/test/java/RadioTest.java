@@ -18,8 +18,18 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
 
     }
-
     @Test
+    public void maxStationTest() {
+
+        Radio radio = new Radio();
+
+        radio.setCurrentStation(10);
+
+        int expected = 0;
+        int actual = radio.getCurrentStation();
+        Assertions.assertEquals(expected, actual);
+    }
+           @Test
     public void testDefaultNextBehavior() {
         Radio radio = new Radio();
 
